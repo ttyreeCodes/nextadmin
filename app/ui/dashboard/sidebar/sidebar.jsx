@@ -25,7 +25,7 @@ const menuItems = [
         },
         {
             title: "Users",
-            path: "/users",
+            path: "/dashboard/users",
             icon: <FaRegUserCircle />
         },
         {

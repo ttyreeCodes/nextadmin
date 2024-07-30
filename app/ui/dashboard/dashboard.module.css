@@ -3,22 +3,6 @@
     display: flex;
 }
 
-
-.main {
-    flex: 3
-}
-
-.wrapper {
-    display: flex;
-    padding: 20px;
-
-}
-
-.cards {
-    display: flex;
-    gap: 20px;
-}
-
 .menu {
     height: 100%;
     width: fit-content;
@@ -32,7 +16,25 @@
     height: 70px;
 }
 
-.content {
-    flex: 4;
+
+.wrapper {
+    display: flex;
     padding: 20px;
+}
+
+.main {
+    flex: 3;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.table {
+    width: 100%;
+    padding: 10px;
 }

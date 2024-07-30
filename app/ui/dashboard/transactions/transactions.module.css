@@ -1,3 +1,19 @@
 .container {
+    width: 100%;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+}
 
+.table {
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.table td {
+    padding: 10px;
 }
