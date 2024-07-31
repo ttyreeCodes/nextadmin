@@ -1,9 +1,11 @@
 .container {
     padding: 20px;
     display: flex;
-    gap: 10px;
-    margin: 5px;
-    border-radius: 10px;
+    gap: 30px;
+    min-width: fit-content;
+    width: 100%;
+    align-items: center;
+
 }
 
 .container:hover, .active {

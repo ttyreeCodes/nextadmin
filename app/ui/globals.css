@@ -21,3 +21,7 @@ a {
     color: #b4a7d6;
     text-decoration: none;
 }
+
+button:hover {
+    cursor: pointer;
+}

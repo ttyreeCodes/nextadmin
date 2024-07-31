@@ -1,8 +1,15 @@
 import Navbar from "../ui/dashboard/navbar/navbar";
 import Sidebar from "../ui/dashboard/sidebar/sidebar";
 import styles from "../ui/dashboard/dashboard.module.css";
+import React from "react";
 
-const Layout = ({children}) => {
+
+
+export default function RootLayout({
+    children,
+}: Readonly<{
+    children: React.ReactNode;
+}>) {
     return (
         <div className={styles.container}>
             <div className={styles.menu}><Sidebar/></div>
@@ -11,8 +18,6 @@ const Layout = ({children}) => {
                 {children}
             </div>
         </div>
-
-    )
+    );
 }
 
-export default Layout

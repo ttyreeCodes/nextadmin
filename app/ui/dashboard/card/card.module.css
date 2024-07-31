@@ -12,3 +12,16 @@
 .container:hover {
    filter: brightness(1.5);
 }
+
+
+.icon {
+    width: 20px;
+}
+
+.number {
+    font-size: 18px;
+}
+
+.text {
+    font-size: 14px;
+}
