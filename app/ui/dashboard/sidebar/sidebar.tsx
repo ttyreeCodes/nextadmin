@@ -53,9 +53,9 @@ const Sidebar = () => {
                   <span className={styles.title}>Events Admin</span>
                   <button className={styles.arrow} onClick={toggleDrawer}><GoChevronLeft size={24}/></button>
               </div>
-              <div className={styles.menu}>
-                  {menuItems.map(item=> (
-                      <MenuLink item={item} key={item.title}/>
+              <div className={styles.menu} key={"sidebar menu"}>
+                  {menuItems.map((item, index)=> (
+                      <MenuLink item={item} key={item.title} />
                   ))}
               </div>
           </div>

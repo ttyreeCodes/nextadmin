@@ -13,13 +13,12 @@ export type menuItem = {
 
 interface menuItemProps {
     item: menuItem,
-    key?: string
 }
 
-const MenuLink = ({item, key}: menuItemProps) => {
+const MenuLink = ({item}: menuItemProps) => {
     const pathName = usePathname()
     return (
-        <Link key={key} href={item.path}
+        <Link href={item.path}
               className={`${styles.container} ${pathName === item.path && styles.active}`}>
             {item.icon}
             {item.title}

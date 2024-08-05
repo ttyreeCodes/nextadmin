@@ -1,0 +1,2 @@
+
+const statuses = ["Posted", "Pending"];

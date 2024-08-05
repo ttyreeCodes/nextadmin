@@ -1,10 +1,10 @@
 import styles from "app/ui/dashboard/dashboard.module.css";
-import Transactions from "../ui/dashboard/transactions/transactions";
 import Chart from "../ui/dashboard/chart/chart";
 import Card, {cardItem} from "../ui/dashboard/card/card";
 import {IoCalendarOutline, IoEllipsisHorizontalCircle} from "react-icons/io5";
 import {PiUserCircle} from "react-icons/pi";
 import {HiOutlineChatBubbleOvalLeftEllipsis} from "react-icons/hi2";
+import Events from "../ui/dashboard/events/events";
 
 const metricItems: cardItem[] = [
     {
@@ -42,8 +42,8 @@ const Dashboard = () => {
                         <Card item={item} key={item.text}/>
                     ))}
                 </div>
-                <Transactions/>
-                <Chart/>
+                <Events/>
+
             </div>
         </div>
     )
